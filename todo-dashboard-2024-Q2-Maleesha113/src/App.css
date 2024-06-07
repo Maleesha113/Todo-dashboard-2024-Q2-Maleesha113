@@ -1,0 +1,77 @@
+/* src/App.css */
+.app {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  
+}
+
+/* .inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+} */
+
+.main-content {
+  flex: 1;
+  /* padding: 20px; */
+}
+
+/* src/components/Sidebar.css */
+.sidebar {
+  width: 272px;
+  height: 900px;
+  background-color: #33074F;
+  padding: 20px;
+  box-shadow: rgba(51, 7, 79, 1);
+}
+
+.sidebar h2 {
+  color: #ffffff;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: src/components/Navbar.css */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
